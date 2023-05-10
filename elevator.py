@@ -10,10 +10,9 @@ current_floor = 1   #Start at ground level.
 floor = 1 
 goUp = False
 
-
-
 def elevatorCalled(current_floor: int, floor: int):
 
+    #Check if the current floor is higher or lower. Go up if so, down if no.
     if(floor > current_floor):
         goUp = True
     else:
